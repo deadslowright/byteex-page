@@ -1,10 +1,18 @@
-@use './utils/normalize.scss';
-@use './utils/fonts.scss';
-@use './utils/variables.scss';
-@use './utils/mixins.scss';
+@use './utils/normalize' as *;
+@use './utils/fonts' as *;
+@use './utils/mixins' as *;
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --main-blue: #01005B;
+  --first-main-text: #676869;
+  --second-main-text: #6C6C6C;
+  --background-beige: #F9F0E5;
+  --background-grey: #F0EEEF;
+}
+
+body {
+  font-family: 'Inter', 'Montserrat', system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 }
+
