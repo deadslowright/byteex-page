@@ -1,0 +1,10 @@
+@use './utils/normalize.scss';
+@use './utils/fonts.scss';
+@use './utils/variables.scss';
+@use './utils/mixins.scss';
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
